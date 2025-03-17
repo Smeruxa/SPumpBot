@@ -1,0 +1,49 @@
+.key-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fdfdfd;
+    background-color: #3d3d3d;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.main {
+    margin: 0 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #555;
+    color: #fdfdfd;
+}
+
+.input-field::placeholder {
+    color: #fdfdfd;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,19 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #3b3b3b;
+    color: #fafafa;
+}
+
+.input {
+    background-color: #3b3b3b;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
